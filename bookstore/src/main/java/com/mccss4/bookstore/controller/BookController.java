@@ -30,4 +30,11 @@ public class BookController {
         model.addAttribute("book", book);
         return "read";
     }
+
+    @GetMapping("/search")
+    public String searchBooks(@RequestParam String query, Model model) {
+        List<Book> books = bookRepository.findByTitleContainingOrAuthorContaining(query, query);
+        model.addAttribute("books", books);
+        return "index";
+    }
 }
