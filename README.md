@@ -20,7 +20,7 @@ The Digital Library application is a web-based platform designed to provide acce
 - **H2 Database** for an in-memory database during development.
 
 ## Demo
-
+https://github.com/user-attachments/assets/e491b91b-eb8a-48b7-b3d0-1ec7be8739a3
 
 ## License
 All books included in this application are under the public domain. This project itself is open-source. 
