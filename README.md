@@ -19,6 +19,9 @@ The Digital Library application is a web-based platform designed to provide acce
 - **Java Persistence API (JPA)** for data persistence.
 - **H2 Database** for an in-memory database during development.
 
+## Demo
+
+
 ## License
 All books included in this application are under the public domain. This project itself is open-source. 
 
