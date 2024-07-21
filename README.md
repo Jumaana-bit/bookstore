@@ -11,6 +11,47 @@ The Digital Library application is a web-based platform designed to provide acce
 - Responsive design for optimal viewing across various devices.
 - Simple and intuitive user interface for easy navigation through the library.
 
+### Running the Application
+
+1. **Clone the Repository**
+
+    Start by cloning the project repository to your local machine using:
+
+    ```bash
+    git clone https://github.com/Jumaana-bit/bookstore.git
+    ```
+
+2. **Navigate to Project Directory**
+
+    Change into the project directory:
+
+    ```bash
+    cd bookstore
+    ```
+
+3. **Build the Project**
+
+    Use Maven to build the project:
+
+    ```bash
+    mvn clean install
+    ```
+
+    To skip the tests during the build, you can add the `-DskipTests` flag:
+
+    ```bash
+    mvn clean install -DskipTests
+    ```
+
+4. **Run the Application**
+
+    Launch the application using Spring Boot Maven plugin:
+
+    ```bash
+    mvn spring-boot:run
+    ```
+
+
 ## Technologies Used
 
 - **Spring Boot** for backend development and RESTful services.
